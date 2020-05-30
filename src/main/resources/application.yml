@@ -4,3 +4,8 @@ spring:
     url: jdbc:mysql://localhost:3306/weshow?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
     username: root
     password: root
+jianzhonglang:
+  jwt:
+    secret: f4e2e52034348f86b67cde581c0f9eb5
+    expire: 604800
+    header: Authorization
